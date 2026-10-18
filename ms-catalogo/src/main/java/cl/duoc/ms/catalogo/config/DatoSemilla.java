@@ -13,12 +13,12 @@ import java.math.BigDecimal;
 import java.util.List;
 
 @Configuration
-public class DataLoader implements CommandLineRunner {
+public class DatoSemilla implements CommandLineRunner {
 
     private final ProductoRepository productoRepository;
     private final IngredienteRepository ingredienteRepository;
 
-    public DataLoader(ProductoRepository productoRepository, IngredienteRepository ingredienteRepository) {
+    public DatoSemilla(ProductoRepository productoRepository, IngredienteRepository ingredienteRepository) {
         this.productoRepository = productoRepository;
         this.ingredienteRepository = ingredienteRepository;
     }
